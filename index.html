@@ -1,0 +1,111 @@
+<html>
+
+    <head>
+
+        <title>
+
+            Selfie
+
+        </title>
+        
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+<link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body style="background-color:lightblue;">
+
+        <div class="container">
+
+            <center>
+
+                <a href="" id="anchor" download="selfie.png"></a>
+
+                <h1>
+
+                    Voice Selfie App
+
+                    <img src="download.jfif">
+
+                </h1>
+
+                <hr>
+
+                <h3 class=" btn btn-danger">
+
+                    Please press allow as as the popup comes when you give the voice command
+
+                </h3>
+
+                <div class="form-group">
+
+                    <h2>
+
+                        Say "take my selfie"
+
+                    </h2>
+
+                    <label>
+
+                        Your voice output will be shown below
+
+                    </label>
+
+                    <textarea readonly="true" class="form-control" id="textbox"></textarea>
+
+                </div>
+
+                <button class="btn btn-primary" onclick="start()"> 
+
+                    Start
+
+                </button>
+
+                <p>
+
+                    Press the Start button
+
+                </p>
+
+                <br><br>
+
+                <label>
+
+                    Your Webcam:
+
+                </label>
+
+                <div id="camera">
+
+                </div>
+
+                <br><br>
+
+                <label>
+
+                    Your selfie will display here
+
+                </label>
+
+                <div id="output">
+
+                </div>
+
+            </center>
+
+        </div>
+
+        <script src="main.js"></script>
+
+    </body>
+    
+</html>
